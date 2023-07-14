@@ -534,7 +534,7 @@ onMounted(() => {
     })
   })
 })
-defineExpose([dragEvent, gridItemProps])
+defineExpose({dragEvent, gridItemProps})
 </script>
 
 <style>

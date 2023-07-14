@@ -5912,7 +5912,7 @@ const Vo = () => typeof window < "u", ul = (e, t) => {
           M(), x(), ul("resize", M.bind(this)), Dt(o.layout, o.verticalCompact), n("update:layout", o.layout), H(), k.value && a.value.listenTo(k.value, M), o.useObserver && q();
         });
       });
-    }), t([K, E]), (z, y) => (Gt(), de("div", null, [
+    }), t({ dragEvent: K, gridItemProps: E }), (z, y) => (Gt(), de("div", null, [
       li("div", {
         ref_key: "wrapper",
         ref: k,
